@@ -1,0 +1,75 @@
+  /* Animation ========================================================================== */
+  :root {
+    --sociatic-transition: cubic-bezier(0.165, 0.84, 0.44, 1)
+  }
+  
+  .sociatic-animate {
+      opacity: 0;
+      visibility: hidden;
+      transition-property: opacity, transform;
+  }
+  
+ body .sociatic-animate-init {  
+     opacity: 1;
+     visibility: visible;
+     transform: translateY(0) translateX(0) scale(1) rotate(0)
+  }
+  
+  .sociatic-move-up {
+      transform: translateY(30px)
+  }
+  
+  .sociatic-move-down {
+      transform: translateY(-30px)
+  }
+  
+  .sociatic-move-right {
+      transform: translateX(-40px)
+  }
+  
+  .sociatic-move-left {
+      transform: translateX(40px)
+  }
+  
+  .sociatic-flip {
+      transform: perspective(500px) translateY(60px) scaleY(.75) rotateX(-40deg)
+  }
+  
+  .sociatic-scale {
+      transform: scale(0.5)
+  }
+  
+  .sociatic-flip,
+  .sociatic-move-down,
+  .sociatic-move-up,
+  .sociatic-move-right,
+  .sociatic-move-left,
+  .sociatic-scale {
+      transition-duration: .7s;
+      transition-timing-function: var(--sociatic-transition)
+  }
+  
+  .sociatic-delay-1 {
+      transition-delay: .1s
+  }
+  
+  .sociatic-delay-3 {
+      transition-delay: .3s
+  }
+  
+  .sociatic-delay-5 {
+      transition-delay: .5s
+  }
+  
+  .sociatic-delay-7 {
+      transition-delay: .7s
+  }
+  
+  .sociatic-delay-10 {
+      transition-delay: 1s
+  }
+  
+  .sociatic-delay-20 {
+      transition-delay: 2s
+  }
+  

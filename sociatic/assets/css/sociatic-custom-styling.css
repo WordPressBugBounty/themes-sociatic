@@ -1,0 +1,536 @@
+/* CUSTOM CORE CLASSES */
+
+body .is-style-custombuttonstyle1 .wp-block-button__link {
+    color: #986df8;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 15px 32px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #986df8;
+
+}
+
+body .is-style-custombuttonstyle1:hover .wp-block-button__link {
+    color: #ffffff;
+    background-color: #986df8;
+}
+
+body .is-style-custombuttonstyle2 .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Hind Siliguri";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 18px 36px;
+    background-color: #986df8;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #986df8;
+
+}
+
+body .is-style-custombuttonstyle2:hover .wp-block-button__link {
+    background-color: #8651fa;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8651fa;
+}
+
+body .is-style-custombuttonstyle3 .wp-block-button__link {
+    color: #ffffff;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 18px 36px;
+    background-color: #986df8;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #986df8;
+
+}
+
+body .is-style-custombuttonstyle3:hover .wp-block-button__link {
+    background-color: #8651fa;
+
+}
+
+body .is-style-custombuttonstyle4 .wp-block-button__link {
+    width: 100%;
+    color: #ffffff;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 18px 36px;
+    background-color: #986df8;
+    border-radius: 100px;
+
+}
+
+body .is-style-custombuttonstyle4:hover .wp-block-button__link {
+    background-color: #8651fa;
+}
+
+body .is-style-custombuttonstyle5 .wp-block-button__link {
+    width: 100%;
+    color: #986df8;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 18px 36px;
+    background-color: #ffffff;
+    border-radius: 100px;
+
+}
+
+body .is-style-custombuttonstyle5:hover .wp-block-button__link {
+    color: #ffffff;
+    background-color: #1a154c;
+}
+
+body .is-style-customboxshadow {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0px 1px 35px rgb(165 62 3 / 10%);
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+
+}
+
+body .is-style-custombox {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+body .wp-block-post-comments {
+    background-color: #ffffff;
+    padding: 0px;
+    border: none;
+    border-radius: 0px;
+}
+
+body .wp-block-post-comments h2 {
+    font-family: "mulish";
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #1a154c;
+    margin-bottom: 20px;
+}
+
+body .wp-block-post-comments p {
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    line-height: 1.5;
+    color: #5b5a67;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.wp-block-post-comments label {
+    display: block;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: normal;
+    color: #1a154c;
+}
+
+.wp-block-post-comments [class^="comment-form-"] input:not([type=checkbox]) {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.wp-block-post-comments textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #e8e8e8;
+    font-size: 16px;
+    resize: vertical;
+    min-height: 100px;
+}
+
+body .wp-block-post-comments input[type=submit] {
+    margin-top: 0px;
+    background-color: #986df8;
+    color: #ffffff;
+    font-family: "Hind Siliguri";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 15px 32px;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #986df8;
+
+}
+
+body .wp-block-post-comments [type=submit]:hover {
+    background-color: #8651fa;
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #8651fa;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body .wp-block-query-pagination.block-editor-block-list__layout {
+    margin: 0;
+    gap: 20px;
+}
+
+body .wp-block-post-template.block-editor-block-list__layout {
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    background-color: #ffffff;
+}
+
+body.sociatic-img-radius-top-left-10 img {
+    border-top-left-radius: 10px;
+}
+
+body.sociatic-img-radius-top-right-10 img {
+    border-top-right-radius: 10px;
+}
+
+body.sociatic-img-radius-bottom-right-10 img {
+    border-bottom-right-radius: 10px;
+}
+
+body.sociatic-img-radius-bottom-left-10 img {
+    border-bottom-left-radius: 10px;
+}
+
+body.sociatic-absolute {
+    position: absolute !important;
+}
+
+@media (max-width: 1024px) {
+    body .hide-in-tablet {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    body .hide-in-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+   .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+      align-items: flex-start;
+      width: 100%;
+      gap: 25px;
+  
+    }
+    
+    li.wp-block-navigation-item.has-child.open-on-hover-click.wp-block-navigation-submenu {
+      align-items: flex-start;
+      width: 100%;
+      gap: 15px;
+  
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    .wp-block-navigation.is-style-customnav>.wp-block-navigation-item,
+    .wp-block-navigation.is-style-customnav .wp-block-navigation__container>.wp-block-navigation-item {
+        height: 70px;
+        color: #1a154c;
+    }
+
+    .wp-block-navigation.is-style-customnav .wp-block-navigation__container>.wp-block-navigation-item:hover {
+        color: #986df8;
+      
+   }
+    .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container {
+        width: 350px;
+        background-color: #ffffff;
+        border: none;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        padding-top: 15px;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        box-shadow: 0px 4px 15px rgba(165, 62, 3, 0.1);
+      
+    }
+    .wp-block-navigation:not(.has-background) .wp-block-navigation__submenu-container>.wp-block-navigation-item:hover {
+        color: #986df8;
+    }
+    
+    .wp-block-navigation .wp-block-navigation__submenu-icon {
+        align-self: center;
+        background-color: inherit;
+        color: #1a154c;
+        display: inline-block;
+        font-size: 28px;
+        height: 0.6em;
+        line-height: 0;
+        margin-left: 0.25em;
+        padding: 0;
+        width: 0.6em;
+}
+
+body .wp-block-cover .wp-block-cover__image {
+    border-radius: 20px;
+}
+
+body .scrollable-element {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+body .sociatic-to-bottom {
+    scroll-behavior: smooth;
+}
+
+/* SOCIATIC ADVANCE CLASSES */
+
+body.sociatic-z-index-1 {
+    position: relative;
+    z-index: 1;
+}
+
+body.sociatic-z-index-10 {
+    position: relative;
+    z-index: 10;
+}
+
+body.sociatic-z-index-100 {
+    position: relative;
+    z-index: 100;
+}
+
+body.sociatic-z-index-1000 {
+    position: relative;
+    z-index: 1000;
+}
+
+body.sociatic-margin-top-n10 {
+    position: relative;
+    margin-top: -10px !important;
+}
+
+body.sociatic-margin-top-n20 {
+    position: relative;
+    margin-top: -20px !important;
+}
+
+body.sociatic-margin-top-n30 {
+    position: relative;
+    margin-top: -30px !important;
+}
+
+body.sociatic-margin-top-n40 {
+    position: relative;
+    margin-top: -40px !important;
+}
+
+body.sociatic-margin-top-n50 {
+    position: relative;
+    margin-top: -50px !important;
+}
+
+body.sociatic-margin-top-n60 {
+    position: relative;
+    margin-top: -60px !important;
+}
+
+body.sociatic-margin-top-n70 {
+    position: relative;
+    margin-top: -70px !important;
+}
+
+body.sociatic-margin-top-n80 {
+    position: relative;
+    margin-top: -80px !important;
+}
+
+body.sociatic-margin-top-n90 {
+    position: relative;
+    margin-top: -90px !important;
+}
+
+body.sociatic-margin-top-n100 {
+    position: relative;
+    margin-top: -100px !important;
+}
+
+body.sociatic-margin-top-n180 {
+    position: relative;
+    margin-top: -180px !important;
+}
+
+body.sociatic-margin-top-n280 {
+    position: relative;
+    margin-top: -280px !important;
+}
+
+body.sociatic-margin-top-n340 {
+    position: relative;
+    margin-top: -340px !important;
+}
+
+body.sociatic-margin-bottom-n100 {
+    position: relative;
+    margin-bottom: -100px !important;
+}
+
+body.sociatic-margin-right-n10 {
+    position: relative;
+    margin-right: -10px !important;
+}
+
+body.sociatic-margin-right-n20 {
+    position: relative;
+    margin-right: -20px !important;
+}
+
+body.sociatic-margin-right-n30 {
+    position: relative;
+    margin-right: -30px !important;
+}
+
+body.sociatic-margin-right-n40 {
+    position: relative;
+    margin-right: -40px !important;
+}
+
+body.sociatic-margin-right-n50 {
+    position: relative;
+    margin-right: -50px !important;
+}
+
+body.sociatic-margin-right-n60 {
+    position: relative;
+    margin-right: -60px !important;
+}
+
+body.sociatic-margin-right-n70 {
+    position: relative;
+    margin-right: -70px !important;
+}
+
+body.sociatic-margin-right-n80 {
+    position: relative;
+    margin-right: -80px !important;
+}
+
+body.sociatic-margin-right-n90 {
+    position: relative;
+    margin-right: -90px !important;
+}
+
+body.sociatic-margin-right-n100 {
+    position: relative;
+    margin-right: -100px !important;
+}
+
+body.sociatic-radius-5 {
+    border-radius: 5px;
+}
+
+body.sociatic-radius-10 {
+    border-radius: 10px;
+}
+
+body.sociatic-radius-25 {
+    border-radius: 25px;
+}
+
+body.sociatic-radius-50 {
+    border-radius: 50px;
+}
+
+body.sociatic-margin-left-n10 {
+    position: relative;
+    margin-left: -10px !important;
+}
+
+body.sociatic-margin-left-n20 {
+    position: relative;
+    margin-left: -20px !important;
+}
+
+body.sociatic-margin-left-n30 {
+    position: relative;
+    margin-left: -30px !important;
+}
+
+body.sociatic-margin-left-n40 {
+    position: relative;
+    margin-left: -40px !important;
+}
+
+body.sociatic-margin-left-n50 {
+    position: relative;
+    margin-left: -50px !important;
+}
+
+body.sociatic-margin-left-n60 {
+    position: relative;
+    margin-left: -60px !important;
+}
+
+body.sociatic-margin-left-n70 {
+    position: relative;
+    margin-left: -70px !important;
+}
+
+body.sociatic-margin-left-n80 {
+    position: relative;
+    margin-left: -80px !important;
+}
+
+body.sociatic-margin-left-n90 {
+    position: relative;
+    margin-left: -90px !important;
+}
+
+body.sociatic-margin-left-n100 {
+    position: relative;
+    margin-left: -100px !important;
+}
+
+body.sociatic-img-radius-20 img {
+    border-radius: 20px;
+
+}
+

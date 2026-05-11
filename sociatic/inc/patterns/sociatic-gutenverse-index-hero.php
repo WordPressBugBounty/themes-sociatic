@@ -1,0 +1,23 @@
+<?php
+/**
+ * Pattern content.
+ */
+return array(
+	'title'      => __( 'Sociatic Gutenverse Index Hero', 'sociatic' ),
+	'categories' => array( 'sociatic-gutenverse' ),
+	'content'    => '<!-- wp:gutenverse/section {"width":{"Desktop":"1190"},"gap":"no","elementId":"guten-6gzmBc","background":{"type":"default","color":{"r":255,"g":246,"b":239,"a":1}},"backgroundOverlay":{"type":"default","image":{"Desktop":{"id":3895,"image":"' . esc_url( SOCIATIC_URI ) . 'assets/img/hero-page-bg.webp"},"Tablet":{"id":3944,"image":"' . esc_url( SOCIATIC_URI ) . 'assets/img/bg-hero.webp"},"Mobile":{"id":3944,"image":"' . esc_url( SOCIATIC_URI ) . 'assets/img/bg-hero.webp"}},"position":{"Desktop":"center center","Tablet":"custom","Mobile":"custom"},"repeat":{"Desktop":"no-repeat"},"size":{"Desktop":"default"},"xposition":{"Tablet":{"unit":"%","point":""},"Mobile":{"unit":"%","point":""}},"yposition":{"Tablet":{"unit":"%","point":"60"},"Mobile":{"unit":"%","point":"60"}}},"margin":{"Desktop":{"unit":"px","dimension":{"top":"-100"}},"Tablet":[],"Mobile":[]},"padding":{"Desktop":{"unit":"px","dimension":{"top":"200","bottom":"150"}},"Tablet":{"unit":"px","dimension":{"right":"15","left":"15","top":"200"}},"Mobile":{"unit":"px","dimension":{"right":"20","left":"20","top":"140","bottom":"80"}}},"zIndex":{"Desktop":"0"}} -->
+<div class="section-wrapper" data-id="6gzmBc"><section class="wp-block-gutenverse-section guten-element guten-section guten-6gzmBc layout-boxed align-stretch"><div class="guten-background-overlay"></div><div class="guten-shape-divider guten-shape-divider-top"></div><div class="guten-shape-divider guten-shape-divider-bottom"></div><div class="guten-container guten-column-gap-no"><!-- wp:gutenverse/column {"width":{"Desktop":100},"elementId":"guten-KyPELM","border":{"radius":{"Desktop":[]}}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-KyPELM"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="KyPELM"><div class="guten-column-wrapper"><!-- wp:gutenverse/section {"width":{"Desktop":"1190"},"isChild":true,"gap":"no","elementId":"guten-FjnLeS"} -->
+<div class="section-wrapper" data-id="FjnLeS"><section class="wp-block-gutenverse-section guten-element guten-section guten-FjnLeS layout-boxed align-stretch"><div class="guten-background-overlay"></div><div class="guten-shape-divider guten-shape-divider-top"></div><div class="guten-shape-divider guten-shape-divider-bottom"></div><div class="guten-container guten-column-gap-no"><!-- wp:gutenverse/column {"width":{"Desktop":80,"Tablet":80},"elementId":"guten-YPBrSm","verticalAlign":{"Desktop":"center"},"margin":{"Desktop":{"unit":"px","dimension":{"top":"0","right":"0","bottom":"0","left":"0"}}},"padding":{"Desktop":{"unit":"px","dimension":{"top":"0","right":"0","bottom":"0","left":"0"}}}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-YPBrSm"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="YPBrSm"><div class="guten-column-wrapper"><!-- wp:gutenverse/post-title {"elementId":"guten-4YaVvS","typography":{"type":"variable","id":"1Isv3n","font":{"label":"Muli","value":"Muli","type":"google"},"size":{"Desktop":{"point":"56","unit":"px"},"Mobile":{"point":"36","unit":"px"},"Tablet":{"point":"44","unit":"px"}},"lineHeight":{"Desktop":{"unit":"em","point":"1.1"}},"weight":"800"},"color":{"type":"variable","id":"theme-1"},"animation":{"type":{"Desktop":"fadeInUp"},"duration":"normal","delay":"100"}} -->
+<div class="guten-element guten-post-title guten-4YaVvS animated guten-element-hide desktop-fadeInUp"></div>
+<!-- /wp:gutenverse/post-title --></div></div></div>
+<!-- /wp:gutenverse/column -->
+
+<!-- wp:gutenverse/column {"width":{"Desktop":20,"Tablet":20,"Mobile":null},"elementId":"guten-SHYC7e","verticalAlign":{"Desktop":"center","Tablet":"center"},"margin":{"Mobile":[]},"padding":{"Mobile":{"unit":"px","dimension":{"top":"0"}}}} -->
+<div class="wp-block-gutenverse-column guten-element guten-column guten-SHYC7e"><div class="guten-background-overlay"></div><div class="sticky-wrapper" data-id="SHYC7e"><div class="guten-column-wrapper"></div></div></div>
+<!-- /wp:gutenverse/column --></div></section></div>
+<!-- /wp:gutenverse/section --></div></div></div>
+<!-- /wp:gutenverse/column --></div></section></div>
+<!-- /wp:gutenverse/section -->',
+);

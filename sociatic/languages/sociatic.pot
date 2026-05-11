@@ -1,0 +1,317 @@
+# Copyright (C) 2024 Jegstudio
+# This file is distributed under the GNU General Public License v3 or later..
+msgid ""
+msgstr ""
+"Project-Id-Version: Sociatic 1.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/sociatic\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-05-17T06:13:17+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: sociatic\n"
+
+#. Theme Name of the theme
+msgid "Sociatic"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://gutenverse.com/sociatic-theme"
+msgstr ""
+
+#. Description of the theme
+msgid "Sociatic is a WordPress theme that looks great on any device and works with the Gutenverse plugin. It's customizable, making it perfect for Social Media Agency and Social media Marketing. You can use the included core and Gutenverse versions to make it easy to create the website you want. We want to make sure you have the best experience using WordPress to edit your site."
+msgstr ""
+
+#. Author of the theme
+msgid "Jegstudio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://gutenverse.com"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:56
+msgid "Sociatic Basic Patterns"
+msgstr ""
+
+#: inc/class/class-block-patterns.php:60
+msgid "Sociatic Gutenverse Patterns"
+msgstr ""
+
+#: inc/class/class-init.php:129
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class/class-init.php:376
+msgid "Take Your Website To New Height with"
+msgstr ""
+
+#: inc/class/class-init.php:377
+msgid "Sociatic theme work best with Gutenverse plugin. By installing Gutenverse plugin you may access Sociatic templates built with Gutenverse and get access to more than 40 free blocks, hundred free Layout and Section."
+msgstr ""
+
+#: inc/patterns/sociatic-core-404.php:6
+msgid "Sociatic Core 404"
+msgstr ""
+
+#: inc/patterns/sociatic-core-about.php:6
+msgid "Sociatic Core About"
+msgstr ""
+
+#: inc/patterns/sociatic-core-archive.php:6
+msgid "Sociatic Core Archive"
+msgstr ""
+
+#: inc/patterns/sociatic-core-footer.php:6
+msgid "Sociatic Core Footer"
+msgstr ""
+
+#: inc/patterns/sociatic-core-home-hero.php:6
+msgid "Sociatic Core Home Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-core-icon.php:6
+msgid "Sociatic Core Icon"
+msgstr ""
+
+#: inc/patterns/sociatic-core-index.php:6
+msgid "Sociatic Core Index"
+msgstr ""
+
+#: inc/patterns/sociatic-core-logo.php:6
+msgid "Sociatic Core Logo"
+msgstr ""
+
+#: inc/patterns/sociatic-core-page.php:6
+msgid "Sociatic Core Page"
+msgstr ""
+
+#: inc/patterns/sociatic-core-pricing.php:6
+msgid "Sociatic Core Pricing"
+msgstr ""
+
+#: inc/patterns/sociatic-core-search.php:6
+msgid "Sociatic Core Search"
+msgstr ""
+
+#: inc/patterns/sociatic-core-service.php:6
+msgid "Sociatic Core Service"
+msgstr ""
+
+#: inc/patterns/sociatic-core-single-content.php:6
+msgid "Sociatic Core Single Content"
+msgstr ""
+
+#: inc/patterns/sociatic-core-single .php:6
+msgid "Sociatic Core Single"
+msgstr ""
+
+#: inc/patterns/sociatic-core-strategy.php:6
+msgid "Sociatic Core Strategy"
+msgstr ""
+
+#: inc/patterns/sociatic-core-testimonial.php:6
+msgid "Sociatic Core Testimonial"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-404.php:6
+msgid "Sociatic Gutenverse 404"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-about-hero.php:6
+msgid "Sociatic Gutenverse Hero About"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-about.php:6
+msgid "Sociatic Gutenverse About"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-archive-hero.php:6
+msgid "Sociatic Gutenverse Archive Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-blog-content.php:6
+msgid "Sociatic Gutenverse Blog Content"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-blog-hero.php:6
+msgid "Sociatic Gutenverse Blog Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-brand-logo.php:6
+msgid "Sociatic Gutenverse Brand Logo"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-business.php:6
+msgid "Sociatic Gutenverse Business"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-ceo.php:6
+msgid "Sociatic Gutenverse CEO"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-companies.php:6
+msgid "Sociatic Gutenverse Companies"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-contact-hero.php:6
+msgid "Sociatic Gutenverse Contact Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-footer.php:6
+msgid "Sociatic Gutenverse Footer"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-header.php:6
+msgid "Sociatic Gutenverse Header"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-home-hero.php:6
+msgid "Sociatic Gutenverse Home Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-index-hero.php:6
+msgid "Sociatic Gutenverse Index Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-page-hero.php:6
+msgid "Sociatic Gutenverse Page Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-popup.php:6
+msgid "Sociatic Gutenverse Popup"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-pricing.php:6
+msgid "Sociatic Gutenverse Pricing"
+msgstr ""
+
+#: inc/patterns/Sociatic-gutenverse-search-hero.php:6
+msgid "Sociatic Gutenverse Search Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-service-hero.php:6
+msgid "Sociatic Gutenverse Service Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-service.php:6
+msgid "Sociatic Gutenverse Service"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-single-content.php:6
+msgid "Sociatic Gutenverse Single Content"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-single-hero.php:6
+msgid "Sociatic Gutenverse Single Hero"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-step-to-grow.php:6
+msgid "Sociatic Gutenverse Step To Grow"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-strategy.php:6
+msgid "Sociatic Gutenverse Strategy"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-team.php:6
+msgid "Sociatic Gutenverse Team"
+msgstr ""
+
+#: inc/patterns/sociatic-gutenverse-testimonial.php:6
+msgid "Sociatic Gutenverse Testimonial"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "violet"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Purple"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Grey"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Twitter"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Facebook"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Soft Orange"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Orange"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Green"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Blue"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Instagram"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Dark Violet"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Black"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Light Grey"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Grey"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Line Color"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Mulish"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Hind Siliguri"
+msgstr ""
