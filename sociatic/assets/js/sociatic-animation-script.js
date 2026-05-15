@@ -2,14 +2,13 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     function playAnimation(element, frame = false) {
+        if (frame) {
+            element.style.visibility = 'visible';
+            element.style.opacity = '1';
+            element.style.transform = 'none';
+        }
         if (element.getBoundingClientRect().top > 0 && element.getBoundingClientRect().top <= (window.innerHeight * 0.75)) {
-            element.classList.add('sociatic-animate-init');
-
-            if (frame) {
-                element.style.visibility = 'visible';
-                element.style.opacity = '1';
-                element.style.transform = 'none';
-            }
+            element.classList.add('sociatic-animate-init');            
         }
     }
 

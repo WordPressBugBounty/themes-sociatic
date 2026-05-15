@@ -46,6 +46,7 @@ class Block_Patterns {
 	 */
 	public function __construct() {
 		$this->register_block_patterns();
+		$this->register_synced_patterns();
 	}
 
 	/**
@@ -53,11 +54,12 @@ class Block_Patterns {
 	 */
 	private function register_block_patterns() {
 		$block_pattern_categories = array(
-			'sociatic-core' => array( 'label' => __( 'Sociatic Basic Patterns', 'sociatic' ) ),
+			'sociatic-core' => array( 'label' => esc_html__( 'Sociatic Core Patterns', 'sociatic' ) ),
 		);
 
 		if ( defined( 'GUTENVERSE' ) ) {
-			$block_pattern_categories['sociatic-gutenverse'] = array( 'label' => __( 'Sociatic Gutenverse Patterns', 'sociatic' ) );
+			$block_pattern_categories['sociatic-gutenverse'] = array( 'label' => esc_html__( 'Sociatic Gutenverse Patterns', 'sociatic' ) );
+			$block_pattern_categories['sociatic-pro'] = array( 'label' => esc_html__( 'Sociatic Gutenverse PRO Patterns', 'sociatic' ) );
 		}
 
 		$block_pattern_categories = apply_filters( 'sociatic_block_pattern_categories', $block_pattern_categories );
@@ -69,67 +71,219 @@ class Block_Patterns {
 		}
 
 		$block_patterns = array(
-			'sociatic-core-home-hero',
-			'sociatic-core-icon',
-			'sociatic-core-logo',
-			'sociatic-core-about',
-			'sociatic-core-service',
-			'sociatic-core-strategy',
-			'sociatic-core-pricing',
-			'sociatic-core-testimonial',
-			'sociatic-core-page',
-			'sociatic-core-single ',
-			'sociatic-core-single-content',
-			'sociatic-core-archive',
-			'sociatic-core-search',
-			'sociatic-core-404',
-			'sociatic-core-footer',
-			'sociatic-core-index',
+			'sociatic-sociatic-core-footer',
+			'sociatic-sociatic-gutenverse-search-hero',
+			'sociatic-sociatic-core-404',
+			'sociatic-sociatic-core-archive',
+			'sociatic-sociatic-core-home-hero',
+			'sociatic-sociatic-core-icon',
+			'sociatic-sociatic-core-logo',
+			'sociatic-sociatic-core-about',
+			'sociatic-sociatic-core-service',
+			'sociatic-sociatic-core-strategy',
+			'sociatic-sociatic-core-pricing',
+			'sociatic-sociatic-core-testimonial',
+			'sociatic-sociatic-core-index',
+			'sociatic-sociatic-core-page',
+			'sociatic-sociatic-core-search',
+			'sociatic-sociatic-core-single',
+			'sociatic-sociatic-core-single-content',
 		);
 
 		if ( defined( 'GUTENVERSE' ) ) {
-			$block_patterns[] = 'sociatic-gutenverse-popup';
-			$block_patterns[] = 'sociatic-gutenverse-home-hero';
-			$block_patterns[] = 'sociatic-gutenverse-brand-logo';
-			$block_patterns[] = 'sociatic-gutenverse-ceo';
-			$block_patterns[] = 'sociatic-gutenverse-service';
-			$block_patterns[] = 'sociatic-gutenverse-strategy';
-			$block_patterns[] = 'sociatic-gutenverse-pricing';
-			$block_patterns[] = 'sociatic-gutenverse-testimonial';
-			$block_patterns[] = 'sociatic-gutenverse-about-hero';
-			$block_patterns[] = 'sociatic-gutenverse-about';
-			$block_patterns[] = 'sociatic-gutenverse-team';
-			$block_patterns[] = 'sociatic-gutenverse-companies';
-			$block_patterns[] = 'sociatic-gutenverse-strategy';
-			$block_patterns[] = 'sociatic-gutenverse-service-hero';
-			$block_patterns[] = 'sociatic-gutenverse-business';
-			$block_patterns[] = 'sociatic-gutenverse-service';
-			$block_patterns[] = 'sociatic-gutenverse-step-to-grow';
-			$block_patterns[] = 'sociatic-gutenverse-blog-hero';
-			$block_patterns[] = 'sociatic-gutenverse-blog-content';
-			$block_patterns[] = 'sociatic-gutenverse-contact-hero';
-			$block_patterns[] = 'sociatic-gutenverse-index-hero';
-			$block_patterns[] = 'sociatic-gutenverse-page-hero';
-			$block_patterns[] = 'sociatic-gutenverse-single-hero';
-			$block_patterns[] = 'sociatic-gutenverse-single-content';
-			$block_patterns[] = 'sociatic-gutenverse-archive-hero';
-			$block_patterns[] = 'Sociatic-gutenverse-search-hero';
-			$block_patterns[] = 'sociatic-gutenverse-404';
-			$block_patterns[] = 'sociatic-gutenverse-header';
-			$block_patterns[] = 'sociatic-gutenverse-footer';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-footer';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-header';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-404';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-archive-hero';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-popup';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-home-hero';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-brand-logo';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-ceo';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-service';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-strategy';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-pricing';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-testimonial';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-index-hero';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-page-hero';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-single-hero';
+			$block_patterns[] = 'sociatic-sociatic-gutenverse-single-content';
+			
 		}
 
 		$block_patterns = apply_filters( 'sociatic_block_patterns', $block_patterns );
+		$pattern_list   = get_option( 'sociatic_synced_pattern_imported', false );
+		if ( ! $pattern_list ) {
+			$pattern_list = array();
+		}
+
+		$active_slug = get_stylesheet();
+		$inserted_content = get_option(
+			"gutenverse_{$active_slug}_content_inserted",
+			array(
+				'pages'    => array(),
+				'patterns' => array(),
+				'menus'    => array(),
+				'content_has_menus' => array(),
+			)
+		);
 
 		if ( function_exists( 'register_block_pattern' ) ) {
 			foreach ( $block_patterns as $block_pattern ) {
 				$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
+				$pattern_data = require $pattern_file;
 
-				register_block_pattern(
-					'sociatic/' . $block_pattern,
-					require $pattern_file
-				);
+				if ( (bool) $pattern_data['is_sync'] ) {
+					$post = get_page_by_path( $block_pattern . '-synced', OBJECT, 'wp_block' );
+					$post_id = $post ? $post->ID : null;
+					if ( empty( $post ) ) {
+						/**Download Image */
+						$content = wp_slash( $pattern_data['content'] );
+						$image_importer_ver = $pattern_data['image_importer_ver'] ?? null;
+						if ( isset( $pattern_data['images'] ) && ! empty( $pattern_data['images'] ) ) {
+							$images = json_decode( $pattern_data['images'] );
+							if ( ! $image_importer_ver ) {
+								foreach ( $images as $key => $image ) {
+									$url  = $image->image_url;
+									$data = Helper::check_image_exist( $url );
+									if ( ! $data ) {
+										$data = Helper::handle_file( $url );
+									}
+									$content  = str_replace( $url, $data['url'], $content );
+									$image_id = $image->image_id;
+									if ( $image_id && 'null' !== $image_id ) {
+										$content = str_replace( '"imageId\":' . $image_id, '"imageId\":' . $data['id'], $content );
+									}
+								}
+							} else {
+								foreach ( $images as $key => $image ) {
+									$url     = $key;
+									$pattern = $image->pattern;
+									$data    = Helper::check_image_exist( $url );
+									if ( ! $data ) {
+										$data = Helper::handle_file( $url );
+									}
+									foreach ( $pattern as $p ) {
+										$placeholder_arr        = explode( '|', trim( $p, '{}' ) );
+										$placeholder_value_type = end( $placeholder_arr );
+										switch ( $placeholder_value_type ) {
+											case 'url':
+												$placeholder_data_type = $placeholder_arr[1];
+												if ( 'case2' === $placeholder_data_type ) {
+													$placeholder_data_size = $placeholder_arr[3];
+													$target                = wp_get_attachment_image_url( $data['id'], $placeholder_data_size );
+												} else {
+													$target = wp_get_attachment_url( $data['id'] );
+												}
+												break;
+											case 'id':
+											default:
+												$target = $data['id'];
+												break;
+										}
+										$content = str_replace( $p, $target, $content );
+									}
+								}
+							}
+						}
+						$content = $this->decode_unicode_sequences($content);
+						$post_id = wp_insert_post(
+							array(
+								'post_name'    => $block_pattern . '-synced',
+								'post_title'   => $pattern_data['title'],
+								'post_content' => $content,
+								'post_status'  => 'publish',
+								'post_author'  => 1,
+								'post_type'    => 'wp_block',
+							)
+						);
+						if ( isset( $pattern_data['placeholder'] ) ) {
+							$inserted_content['patterns'][] = array(
+								'id' => $post_id,
+								'is_remapped' => false,
+								'placeholder' => ! empty( $pattern_data['placeholder'] ) ? $pattern_data['placeholder'] : '',
+							);
+						}
+						if ( ! is_wp_error( $post_id ) ) {
+							$pattern_category = $pattern_data['categories'];
+							foreach ( $pattern_category as $category ) {
+								wp_set_object_terms( $post_id, $category, 'wp_pattern_category' );
+							}
+						}
+						$pattern_data['content']  = '<!-- wp:block {"ref":' . $post_id . '} /-->';
+						$pattern_data['inserter'] = false;
+						$pattern_data['slug']     = $block_pattern;
+
+						$pattern_list[] = $pattern_data;
+						/**Check if content has menu */
+						$normalized_content = wp_unslash( $content );
+						preg_match_all(
+							'/"menuId"\s*:\s*(?:"(\d+)"|(\d+))/',
+							$normalized_content,
+							$matches
+						);
+
+						if ( ! empty( array_filter( array_merge( $matches[1], $matches[2] ) ) ) ) {
+							$inserted_content['content_has_menus'][] = $post_id;
+						}
+					}
+					
+				} else {
+					register_block_pattern(
+						'sociatic/' . $block_pattern,
+						require $pattern_file
+					);
+				}
 			}
+			
+			update_option( 'sociatic_synced_pattern_imported', $pattern_list );
+			update_option(
+				"gutenverse_{$active_slug}_content_inserted",
+				$inserted_content
+			);
 		}
 	}
+
+	/**
+	 * Decode unicode sequences
+	 *
+	 * @param string $content .
+	 * @return string
+	 */
+	private function decode_unicode_sequences( $content ) {
+		return preg_replace_callback(
+			'/\\\\u([0-9a-fA-F]{4})/',
+			function ( $matches ) {
+
+				$hex = strtolower( $matches[1] );
+
+				// Always keep quotes escaped.
+				if ( '0022' === $hex ) {
+					return '\"';
+				}
+
+				$codepoint = hexdec( $hex );
+
+				return mb_convert_encoding(
+					pack( 'n', $codepoint ),
+					'UTF-8',
+					'UTF-16BE'
+				);
+			},
+			$content
+		);
+	}
+
+	/**
+	 * Register Synced Patterns
+	 */
+	 private function register_synced_patterns() {
+		$patterns = get_option( 'sociatic_synced_pattern_imported' );
+
+		 foreach ( $patterns as $block_pattern ) {
+			 register_block_pattern(
+				'sociatic/' . $block_pattern['slug'],
+				$block_pattern
+			);
+		 }
+	 }
 }

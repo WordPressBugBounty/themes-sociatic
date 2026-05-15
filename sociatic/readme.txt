@@ -1,18 +1,18 @@
 === Sociatic ===
 Contributors: Jegstudio
-Requires at least: 6.3
-Tested up to: 6.3
-Requires PHP: 7.3
-License: GPLv3 or later
+Requires at least: 6.5
+Tested up to: 6.9
+Requires PHP: 7.4
+License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Sociatic is a WordPress theme that looks great on any device and works with the Gutenverse plugin. It's customizable, making it perfect for Social Media Agency and Social media Marketing. You can use the included core and Gutenverse versions to make it easy to create the website you want. We want to make sure you have the best experience using WordPress to edit your site.
+Sociatic is a Social Media Agency and Social Media Marketing WordPress Block Theme designed for businesses that want to build a modern and impactful online presence. Built with full site editing and powered by Gutenverse, this theme provides a flexible and visually engaging platform to showcase marketing services, campaign strategies, and brand portfolios with a clean and professional layout. Whether you run a social media agency or offer digital marketing services, Sociatic helps you present your expertise with clarity and confidence. It is ideal for social media managers, marketing agencies, content creators, branding consultants, and digital strategists looking to grow their online presence. With responsive layouts, customizable block patterns, and well-structured pages, you can easily highlight services, campaign results, case studies, and client testimonials. Optimized for performance and usability, Sociatic enables you to create a professional website that reflects your brand identity and expertise in Social Media Agency and Social Media Marketing services. If you are looking for a scalable and modern solution, Sociatic is a reliable Social Media Agency and Social Media Marketing WordPress theme to expand your business online.
 
 == Copyright ==
 
-Sociatic, 2023 Jegstudio
+Sociatic, 2026 Jegstudio
 Sociatic is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -69,8 +69,20 @@ Self designed images,
 * engagement : sociatic/assets/img/engagement.webp
 * satisfied client : sociatic/assets/img/satisfied-client.webp
 * user reserch : sociatic/assets/img/user-reserch.webp
-Declaring these self designed images under GPL license version 2.0 =
-License URL: http://www.gnu.org/licenses/gpl-2.0.html
+* Image 1 : sociatic/assets/img/icon-comparison.png
+* Image 2 : sociatic/assets/img/icon-docs.png
+* Image 3 : sociatic/assets/img/icon-plugin.png
+* Image 4 : sociatic/assets/img/ss-cover-sociatic-pro-home.webp
+
+Declaring these self designed images under GPL license version 3.0 =
+License URL: http://www.gnu.org/licenses/gpl-3.0.html
+
+Google Web Fonts (Hind Siliguri) By Google - https://google.com
+Copyright (c) 2015 Indian Type Foundry (info@indiantypefoundry.com)
+License: This Font Software is licensed under the SIL Open Font License, Version 1.1. 
+License URL: https://openfontlicense.org/
+Source: https://fonts.google.com/specimen/Hind+Siliguri
+
 
 Icon for theme screenshot,
 License: (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -187,23 +199,28 @@ License File: sociatic/assets/fonts/mulish/license.txt
 
 == Changelog ==
 
-= 1.0.6 - 2024-05-17 =
+= 1.1.0 =
+* Update theme dashboard
+* Remove unused gutenverse templates
+* Improved: Overall performance and SEO optimization
+
+= 1.0.6 =
 * Update Gutenverse template path
 
-= 1.0.4 - 2024-03-21 =
+= 1.0.4 =
 * Update notice design
 
-= 1.0.3 - 2023-09-05 =
+= 1.0.3 =
 * Fix missing global background color
 * Fix email placeholder
 
-= 1.0.2 - 2023-09-04 =
+= 1.0.2 =
 * Add google font details in readme.txt
 * Rename google font license from OFL.txt to license.txt
 
-= 1.0.1 - 2023-08-30 =
+= 1.0.1 =
 * Add license file for google font bundled in the theme
 * Change email address data to placeholder email
 
-= 1.0.0 - 2023-08-24 =
+= 1.0.0 =
 * Initial release

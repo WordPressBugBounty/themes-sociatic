@@ -1,332 +1,575 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
-	"customTemplates": [],
-	"settings": {
-		"appearanceTools": true,
-		"color": {
-			"gradients": [],
-			"palette": [
-				{
-					"slug": "theme-0",
-					"name": "violet",
-					"color": "#986df8"
-				},
-				{
-					"slug": "theme-1",
-					"name": "Dark Purple",
-					"color": "#1a154c"
-				},
-				{
-					"slug": "theme-2",
-					"name": "Dark Grey",
-					"color": "#5b5a67"
-				},
-				{
-					"slug": "theme-3",
-					"name": "Twitter",
-					"color": "#33ccff"
-				},
-				{
-					"slug": "theme-4",
-					"name": "Facebook",
-					"color": "#337fff"
-				},
-				{
-					"slug": "theme-5",
-					"name": "Soft Orange",
-					"color": "#ffe5da"
-				},
-				{
-					"slug": "theme-6",
-					"name": "Orange",
-					"color": "#fc7629"
-				},
-				{
-					"slug": "theme-7",
-					"name": "Green",
-					"color": "#00a558"
-				},
-				{
-					"slug": "theme-8",
-					"name": "Blue",
-					"color": "#0b65c2"
-				},
-				{
-					"slug": "theme-9",
-					"name": "Instagram",
-					"color": "#d82d7e"
-				},
-				{
-					"slug": "theme-10",
-					"name": "Dark Violet",
-					"color": "#8651fa"
-				},
-				{
-					"slug": "theme-11",
-					"name": "Background",
-					"color": "#fff6ef"
-				},
-				{
-					"slug": "theme-12",
-					"name": "Black",
-					"color": "#000000"
-				},
-				{
-					"slug": "theme-13",
-					"name": "Light Grey",
-					"color": "#ebebeb"
-				},
-				{
-					"slug": "theme-14",
-					"name": "Grey",
-					"color": "#a09fac"
-				},
-				{
-					"slug": "theme-15",
-					"name": "Line Color",
-					"color": "#835dcf"
-				}
-			]
-		},
-		"custom": {
-			"headings": {
-				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--primary)"
-				}
-			}
-		},
-		"layout": {
-			"contentSize": null,
-			"wideSize": null
-		},
-		"spacing": {
-			"padding": true,
-			"margin": true,
-			"blockGap": true,
-			"units": [
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw"
-			]
-		},
-		"typography": {
-			"customFontSize": true,
-			"fontFamilies": [
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "regular",
-							"src": [
-								"file:./assets/fonts/mulish/mulish-v12-latin-regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/mulish/mulish-v12-latin-500.woff2"
-							]
-						},
-						{
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/mulish/mulish-v12-latin-700.woff2"
-							]
-						},
-						{
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/mulish/mulish-v12-latin-800.woff2"
-							]
-						},
-						{
-							"fontFamily": "Mulish",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/mulish/mulish-v12-latin-600.woff2"
-							]
-						}
-					],
-					"fontFamily": "Mulish",
-					"name": "Mulish",
-					"slug": "mulish"
-				},
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Hind Siliguri",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "regular",
-							"src": [
-								"file:./assets/fonts/hind-siliguri/hind-siliguri-v12-latin-regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "Hind Siliguri",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/hind-siliguri/hind-siliguri-v12-latin-500.woff2"
-							]
-						},
-						{
-							"fontFamily": "Hind Siliguri",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/hind-siliguri/hind-siliguri-v12-latin-600.woff2"
-							]
-						},
-						{
-							"fontFamily": "Hind Siliguri",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/hind-siliguri/"
-							]
-						},
-						{
-							"fontFamily": "Hind Siliguri",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/hind-siliguri/hind-siliguri-v12-latin-700.woff2"
-							]
-						}
-					],
-					"fontFamily": "Hind Siliguri",
-					"name": "Hind Siliguri",
-					"slug": "hind-siliguri"
-				}
-			],
-			"fontSizes": [
-				{
-					"fluid": {
-						"min": "0.875rem",
-						"max": "1rem"
-					},
-					"size": "1rem",
-					"slug": "small"
-				},
-				{
-					"fluid": {
-						"min": "1rem",
-						"max": "1.125rem"
-					},
-					"size": "1.125rem",
-					"slug": "medium"
-				},
-				{
-					"fluid": {
-						"min": "1.75rem",
-						"max": "1.875rem"
-					},
-					"size": "1.75rem",
-					"slug": "large"
-				},
-				{
-					"fluid": false,
-					"size": "2.25rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": {
-						"min": "4rem",
-						"max": "10rem"
-					},
-					"size": "10rem",
-					"slug": "xx-large"
-				},
-				{
-					"size": "clamp(36px, 4.583vw, 66px )",
-					"slug": "heading-1"
-				},
-				{
-					"size": "clamp(36px, 3.888vw, 56px )",
-					"slug": "heading-page"
-				},
-				{
-					"size": "clamp(32px, 3.194vw, 46px)",
-					"slug": "heading-2"
-				},
-				{
-					"size": "clamp(28px, 2.361vw, 34px)",
-					"slug": "heading-3"
-				},
-				{
-					"size": "clamp(24px, 1.805vw, 26px)",
-					"slug": "heading-4"
-				},
-				{
-					"size": "clamp(24px, 1.666vw, 24px)",
-					"slug": "heading-5"
-				},
-				{
-					"size": "clamp(20px, 1.527vw, 22px)",
-					"slug": "heading-6"
-				},
-				{
-					"size": "clamp(92px, 9.444vw, 136px)",
-					"slug": "font-not-found"
-				}
-			]
-		}
-	},
-	"styles": {
-		"spacing": {
-			"blockGap": "0"
-		},
-		"elements": {
-			"link": {
-				"color": {
-					"text": "var(--wp--preset--color--theme-1)"
-				},
-				":hover": {
-					"color": {
-						"text": "var(--wp--preset--color--theme-0)"
-					}
-				}
-			},
-			"button": {
-				"color": {
-					"background": "var:preset|color|theme-0"
-				}
-			}
-		},
-		"color": {
-			"background": "#ffffff",
-			"text": "var:preset|color|theme-1"
-		}
-	},
-	"templateParts": [
-		{
-			"area": "header",
-			"name": "header"
-		},
-		{
-			"area": "footer",
-			"name": "footer"
-		}
-	],
-	"version": 2
+    "$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+    "customTemplates": [
+        {
+            "name": "blank-canvas",
+            "title": "Blank canvas",
+            "postTypes": [
+                "post",
+                "page"
+            ]
+        },
+        {
+            "name": "full-width",
+            "title": "Full Width",
+            "postTypes": [
+                "post",
+                "page"
+            ]
+        }
+    ],
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "gradients": [],
+            "palette": [
+                {
+                    "slug": "sd-ua-x-1",
+                    "name": "Violet (Legacy)",
+                    "color": "#986df8"
+                },
+                {
+                    "slug": "e-4-qh-in",
+                    "name": "Dark Purple (Legacy)",
+                    "color": "#1a154c"
+                },
+                {
+                    "slug": "y-d-od-tp",
+                    "name": "Dark Grey (Legacy)",
+                    "color": "#5b5a67"
+                },
+                {
+                    "slug": "m-4-hu-lw",
+                    "name": "Twitter (Legacy)",
+                    "color": "#33ccff"
+                },
+                {
+                    "slug": "qi-93-en",
+                    "name": "Facebook (Legacy)",
+                    "color": "#337fff"
+                },
+                {
+                    "slug": "p-mo-sbm",
+                    "name": "Soft Orange (Legacy)",
+                    "color": "#ffe5da"
+                },
+                {
+                    "slug": "7-k-86-k-6",
+                    "name": "Orange (Legacy)",
+                    "color": "#fc7629"
+                },
+                {
+                    "slug": "c-u-kty-8",
+                    "name": "Green (Legacy)",
+                    "color": "#00a558"
+                },
+                {
+                    "slug": "r-mgqoa",
+                    "name": "Blue (Legacy)",
+                    "color": "#0b65c2"
+                },
+                {
+                    "slug": "sum-yv-5",
+                    "name": "Instagram (Legacy)",
+                    "color": "#d82d7e"
+                },
+                {
+                    "slug": "v-qk-dok",
+                    "name": "Dark Violet (Legacy)",
+                    "color": "#8651fa"
+                },
+                {
+                    "slug": "i-4-uv-es",
+                    "name": "Background (Legacy)",
+                    "color": "#fff6ef"
+                },
+                {
+                    "slug": "a-glln-d",
+                    "name": "Black (Legacy)",
+                    "color": "#000000"
+                },
+                {
+                    "slug": "wg-4-k-59",
+                    "name": "Light Grey (Legacy)",
+                    "color": "#ebebeb"
+                },
+                {
+                    "slug": "us-4-rc-f",
+                    "name": "Grey (Legacy)",
+                    "color": "#a09fac"
+                },
+                {
+                    "slug": "4-d-ok-on",
+                    "name": "Line Color (Legacy)",
+                    "color": "#835dcf"
+                },
+                {
+                    "slug": "gv-color-primary",
+                    "name": "Primary",
+                    "color": "#986df8"
+                },
+                {
+                    "slug": "gv-color-text-primary",
+                    "name": "Text Primary",
+                    "color": "#1a154c"
+                },
+                {
+                    "slug": "gv-color-text-secondary",
+                    "name": "Text Secondary",
+                    "color": "#5b5a67"
+                },
+                {
+                    "slug": "gv-color-text-placeholder",
+                    "name": "Text Placeholder",
+                    "color": "#a09fac"
+                },
+                {
+                    "slug": "gv-color-accent",
+                    "name": "Accent",
+                    "color": "#fc7629"
+                },
+                {
+                    "slug": "gv-color-accent-hover",
+                    "name": "Accent Hover",
+                    "color": "#8651fa"
+                },
+                {
+                    "slug": "gv-color-background-primary",
+                    "name": "Background Primary",
+                    "color": "#fff6ef"
+                },
+                {
+                    "slug": "gv-color-background-secondary",
+                    "name": "Background Secondary",
+                    "color": "#1a154c"
+                },
+                {
+                    "slug": "gv-color-background-tertiary",
+                    "name": "Background Tertiary",
+                    "color": "#986df8"
+                },
+                {
+                    "slug": "gv-color-background-quaternary",
+                    "name": "Background Quaternary",
+                    "color": "#ffe5da"
+                },
+                {
+                    "slug": "gv-color-border",
+                    "name": "Border",
+                    "color": "#ebebeb"
+                },
+                {
+                    "slug": "gv-color-border-input",
+                    "name": "Border Input",
+                    "color": "#ebebeb"
+                },
+                {
+                    "slug": "gv-color-secondary",
+                    "name": "Secondary",
+                    "color": "#fc7629"
+                },
+                {
+                    "slug": "gv-color-white",
+                    "name": "White",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-dark-primary",
+                    "name": "Dark Primary",
+                    "color": "#986df8"
+                },
+                {
+                    "slug": "gv-color-dark-secondary",
+                    "name": "Dark Secondary",
+                    "color": "#fc7629"
+                },
+                {
+                    "slug": "gv-color-dark-text-primary",
+                    "name": "Dark Text Primary",
+                    "color": "#ffffff"
+                },
+                {
+                    "slug": "gv-color-dark-text-secondary",
+                    "name": "Dark Text Secondary",
+                    "color": "#ffffffcc"
+                },
+                {
+                    "slug": "gv-color-dark-accent",
+                    "name": "Dark Accent",
+                    "color": "#fc7629"
+                },
+                {
+                    "slug": "gv-color-dark-accent-hover",
+                    "name": "Dark Accent Hover",
+                    "color": "#8651fa"
+                },
+                {
+                    "slug": "gv-color-dark-accent-hover-secondary",
+                    "name": "Dark Accent Hover Secondary",
+                    "color": "#302786"
+                },
+                {
+                    "slug": "gv-color-dark-background-primary",
+                    "name": "Dark Background Primary",
+                    "color": "#1a154c"
+                },
+                {
+                    "slug": "gv-color-dark-background-secondary",
+                    "name": "Dark Background Secondary",
+                    "color": "#18314f"
+                },
+                {
+                    "slug": "gv-color-dark-background-tertiary",
+                    "name": "Dark Background Tertiary",
+                    "color": "#36335a"
+                },
+                {
+                    "slug": "gv-color-dark-background-quaternary",
+                    "name": "Dark Background Quaternary",
+                    "color": "#443285"
+                },
+                {
+                    "slug": "gv-color-dark-border",
+                    "name": "Dark Border",
+                    "color": "#505050"
+                },
+                {
+                    "slug": "gv-color-dark-border-input",
+                    "name": "Dark Border Input",
+                    "color": "#505050"
+                },
+                {
+                    "slug": "gv-color-dark-text-placeholder",
+                    "name": "Dark Text Placeholder",
+                    "color": "#a09fac"
+                },
+                {
+                    "slug": "gv-color-black",
+                    "name": "Black",
+                    "color": "#000000"
+                }
+            ]
+        },
+        "custom": {
+            "headings": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--primary)"
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "100vw",
+            "wideSize": "100vw"
+        },
+        "spacing": {
+            "padding": true,
+            "margin": true,
+            "blockGap": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "fontFamilies": [
+                {
+                    "name": "Hind Siliguri",
+                    "slug": "hind-siliguri",
+                    "fontFamily": "Hind Siliguri, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/hind-siliguri/ijwOs5juQtsyLLR5jN4cxBEoRDf44uQfKiGvxts.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Hind Siliguri"
+                        },
+                        {
+                            "src": "file:./assets/fonts/hind-siliguri/ijwTs5juQtsyLLR5jN4cxBEofJ7Qxuk0Nig.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Hind Siliguri"
+                        },
+                        {
+                            "src": "file:./assets/fonts/hind-siliguri/ijwOs5juQtsyLLR5jN4cxBEoRG_54uQfKiGvxts.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Hind Siliguri"
+                        },
+                        {
+                            "src": "file:./assets/fonts/hind-siliguri/ijwOs5juQtsyLLR5jN4cxBEoREP-4uQfKiGvxts.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Hind Siliguri"
+                        },
+                        {
+                            "src": "file:./assets/fonts/hind-siliguri/ijwOs5juQtsyLLR5jN4cxBEoRCf_4uQfKiGvxts.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Hind Siliguri"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mulish",
+                    "slug": "mulish",
+                    "fontFamily": "Mulish, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNRwaWlGrw-PTY.woff2",
+                            "fontWeight": "200",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaWlGrw-PTY.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaWlGrw-PTY.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexaFRwaWlGrw-PTY.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexU1WwaWlGrw-PTY.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexXRWwaWlGrw-PTY.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexRNWwaWlGrw-PTY.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptyg83HX_SGhgqO0yLcmjzUAuWexTpWwaWlGrw-PTY.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeOvG547LTZFwA.woff2",
+                            "fontWeight": "200",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSd-OvG547LTZFwA.woff2",
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSKeOvG547LTZFwA.woff2",
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSG-OvG547LTZFwA.woff2",
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsS9-SvG547LTZFwA.woff2",
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSzuSvG547LTZFwA.woff2",
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSqeSvG547LTZFwA.woff2",
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        },
+                        {
+                            "src": "file:./assets/fonts/mulish/1Ptwg83HX_SGhgqk2hAjQlW_mEuZ0FsSgOSvG547LTZFwA.woff2",
+                            "fontWeight": "900",
+                            "fontStyle": "italic",
+                            "fontFamily": "Mulish"
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": {
+                        "min": "0.875rem",
+                        "max": "1rem"
+                    },
+                    "size": "1rem",
+                    "slug": "small",
+                    "name": "Small"
+                },
+                {
+                    "fluid": {
+                        "min": "1rem",
+                        "max": "1.125rem"
+                    },
+                    "size": "1.125rem",
+                    "slug": "medium",
+                    "name": "Medium"
+                },
+                {
+                    "fluid": {
+                        "min": "1.75rem",
+                        "max": "1.875rem"
+                    },
+                    "size": "1.75rem",
+                    "slug": "large",
+                    "name": "Large"
+                },
+                {
+                    "fluid": false,
+                    "size": "2.25rem",
+                    "slug": "extra-large",
+                    "name": "Extra Large"
+                },
+                {
+                    "fluid": {
+                        "min": "4rem",
+                        "max": "10rem"
+                    },
+                    "size": "10rem",
+                    "slug": "xx-large",
+                    "name": "XX LARGE"
+                },
+                {
+                    "size": "clamp(36px, 4.583vw, 66px)",
+                    "slug": "heading-1",
+                    "name": "HEADING 1"
+                },
+                {
+                    "size": "clamp(36px, 3.888vw, 56px)",
+                    "slug": "heading-page",
+                    "name": "HEADING PAGE"
+                },
+                {
+                    "size": "clamp(32px, 3.194vw, 46px)",
+                    "slug": "heading-2",
+                    "name": "HEADING 2"
+                },
+                {
+                    "size": "clamp(28px, 2.361vw, 34px)",
+                    "slug": "heading-3",
+                    "name": "HEADING 3"
+                },
+                {
+                    "size": "clamp(24px, 1.805vw, 26px)",
+                    "slug": "heading-4",
+                    "name": "HEADING 4"
+                },
+                {
+                    "size": "clamp(24px, 1.666vw, 24px)",
+                    "slug": "heading-5",
+                    "name": "HEADING 5"
+                },
+                {
+                    "size": "clamp(20px, 1.527vw, 22px)",
+                    "slug": "heading-6",
+                    "name": "HEADING 6"
+                },
+                {
+                    "size": "clamp(92px, 9.444vw, 136px)",
+                    "slug": "font-not-found",
+                    "name": "FONT NOT FOUND"
+                }
+            ]
+        }
+    },
+    "styles": {
+        "spacing": {
+            "blockGap": "1.2rem"
+        },
+        "blocks": {
+            "core/post-content": {
+                "spacing": {
+                    "margin": {
+                        "top": "0px"
+                    }
+                }
+            }
+        },
+        "color": {
+            "text": "var(--wp--preset--color--e-4-qh-in)",
+            "background": "var(--wp--preset--color--white)"
+        },
+        "elements": {
+            "link": {
+                "typography": {
+                    "textDecoration": "underline",
+                    "fontFamily": "var(--wp--preset--font-family--mulish)"
+                },
+                "color": {
+                    "text": "var:preset|color|7-k-86-k-6"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--sd-ua-x-1)"
+                    }
+                }
+            },
+            "button": {
+                "color": {
+                    "text": "var(--wp--preset--color--white)",
+                    "background": "var(--wp--preset--color--sd-ua-x-1)"
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--hind-siliguri)",
+                    "fontWeight": "600",
+                    "fontStyle": "normal"
+                }
+            },
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--mulish)",
+                    "fontStyle": "normal",
+                    "fontWeight": "700"
+                },
+                "color": {
+                    "text": "var(--wp--preset--color--e-4-qh-in)"
+                }
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--hind-siliguri)"
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header"
+        },
+        {
+            "area": "footer",
+            "name": "footer"
+        }
+    ],
+    "version": 2
 }
